@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+	
+{
+	const int a=0.1;
+	
+	int month;
+	int actual_demand;
+	int i;
+	double ft;
+
+
+	cout << "Enter Actual demand for month1: ";
+	cin >> actual_demand;
+	cout << actual_demand;
+             
+	if (month > 1)
+	{
+         	Ft = α×actual_demand + (1- α) ×Ft;    
+	}
+		
+	else
+	{
+		cout << 
+		
+	}
+for (i = 1; i <= 12; i++) 	
+
+	return 0;
+}
