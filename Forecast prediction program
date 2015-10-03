@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	int month, At;
+	double ft;
+    double Pred;
+	const double a=0.1;
+	
+	for (int month=1; month<=12; month++)
+	{
+	    cout << "Enter actual demand for month  " << month <<" : ";
+		cin >> At;
+		if (At ==21)
+		{
+      Pred=a*At+(1-a)*At;
+		    cout << "Predicted Forecast for month "<< month <<": "<<Pred<<endl;
+		}
+		else 
+		{
+		    cout << "Enter Previous Forecast \n";
+		    cin >> ft;
+        Pred=a*At+(1-a)*ft;
+		    cout << "Predicted Forecast for month "<< month << " : "<<Pred<<endl;
+		}
+	}
+	return 0;
+
+}
